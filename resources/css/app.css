@@ -1,0 +1,34 @@
+@tailwind base;
+
+@tailwind components;
+
+
+.nav-link {
+    @apply flex;
+    @apply p-3;
+    @apply text-blue-600;
+    @apply hover:text-black;
+    @apply hover:bg-blue-100;
+    @apply font-medium;
+    @apply cursor-pointer;
+    @apply select-none;
+    @apply pl-5;
+    @apply justify-center;
+    @apply lg:justify-start;
+}
+.nav-link-active {
+    @apply flex;
+    @apply p-3;
+    @apply text-blue-900;
+    @apply bg-blue-300;
+    @apply hover:text-white;
+    @apply hover:bg-blue-600;
+    @apply font-medium;
+    @apply cursor-pointer;
+    @apply select-none;
+    @apply pl-5;
+    @apply justify-center;
+    @apply lg:justify-start;
+}
+
+@tailwind utilities;
